@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 #Instructions
 
 This is a sample Online Store built on Angular 7.
-For expreienced programmers these instruction are not new.
+For experienced programmers these instruction are not new.
 For beginners please follow after cloning it to your local drive.
 I use Visual Studio Code and prefer using Visual Studio Code.
 
