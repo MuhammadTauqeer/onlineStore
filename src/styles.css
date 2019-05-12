@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+.carousel-inner img {
+  margin:auto;
+  width:100%;
+}
+.sec1{
+  background: tan;
+
+}
+#intro1 img{
+  margin:auto;
+  width:100%;;
+}
+
+.intro2 .img-machine5 {
+  padding-left: 5rem;
+  padding-bottom:1.5rem;
+}
+
+#txt1 {
+  color:darkblue;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#intro3 img{
+  width:100%;
+}
+
+header.promo-image-bag{
+background-image: url('./assets/images/bag5.jpg');
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center center;
+background-size: cover;
+width: 100vw;
+height: 80vh;
+}
+
+header.promo-image-belt{
+  background-image: url('./assets/images/belt5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  }
+
+header.promo-image-strap{
+  background-image: url('./assets/images/watchstrap.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  }
+
+header.promo-image-wallet{
+  background-image: url('./assets/images/wallet2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  }

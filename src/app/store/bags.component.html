@@ -1,0 +1,51 @@
+<header class="promo-image-bag">
+  <div class="container">
+    <div class="intro=text"></div>
+  </div>
+</header>
+
+<hr />
+<div id="code_prod2">
+  <div class="container">
+    <div class="row">
+      <div *ngFor="let product of products" class="col-md-3">
+        <figure class="card card-product">
+          <div class="img-wrap">
+            <img src={{product.image}} />
+            <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+          </div>
+          <figcaption class="info-wrap">
+            <a href="#" class="title">{{ product.name }}</a>
+            <div class="action-wrap">
+              <button class="btn btn-primary btn-sm float-right" (click)="addProductToCart(product)" > Order </button>
+              <div class="price-wrap h5">
+                <span class="price-new">{{ product.price| currency:"USD":"symbol":"2.2-2" }}</span>
+              </div>
+              <!-- price-wrap.// -->
+            </div>
+            <!-- action-wrap -->
+          </figcaption>
+        </figure>
+        <!-- card // -->
+      </div>
+      <!-- col // -->
+    </div>
+    <!-- row.// -->
+    <div class="form-inline float-left mr-1">
+      <select class="form-control" [value]="productsPerPage" (change)="changePageSize($event.target.value)">
+        <option value="4">4 per Page</option>
+        <option value="8">8 per Page</option>
+        <option value="12">12 per Page</option>
+        <option value="16">16 per Page</option>
+      </select>
+    </div>
+    <div class="pageBtn">
+      <div class="btn-group float-right">
+        <button *counter = 'let page of pageCount' (click)="changePage(page)" class="btn btn-outline-primary"
+          [class.active]="page == selectedPage">
+          {{page}}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

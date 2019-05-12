@@ -1,0 +1,63 @@
+
+
+.img-wrap {
+  border-radius: 0.2rem 0.2rem 0 0;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  text-align: center;
+}
+
+.img-wrap img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  display: inline-block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.prods{
+  margin-top: -1.5rem;
+  padding-bottom: 2rem;
+}
+
+.img-wrap-2 {
+  border-radius: 0.2rem 0.2rem 0 0;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  text-align: center;
+}
+
+.img-wrap-2 img {
+  width: auto;
+  display: inline-block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+
+.img-wrap-2 img:hover{
+ transform: scale(1.1);
+}
+
+.featured .btn {
+  margin-top: 2rem;
+}
+
+.bag .btn {
+  margin-top: 8rem;
+}
+
+.wallet .btn {
+  margin-top: 10rem;
+}
+
+.belt .btn {
+  margin-top: 10rem;
+}
+
+.watch .btn {
+  margin-top: 13rem;
+}

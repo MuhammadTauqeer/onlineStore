@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+.headerpromo{
+  background: tan;
+}
+.navbar{
+  padding:0.8rem;
+}
+
+.navbar-nav li {
+padding-left: 25px;
+}
+
+.navbar-brand img{
+  height: 35px;
+  width: 35px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+  font-weight: bold;
+  color: #111;
+}
+
+#logright a{
+  color:#111;
+}
+
